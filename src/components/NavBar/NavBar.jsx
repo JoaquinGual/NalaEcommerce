@@ -1,7 +1,7 @@
 
 //navbar bootstrap
 
-import React from 'react';
+import Icono from "../Icono/icono";
 
 const Navbar = () => {
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
+      <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="#3">
@@ -39,6 +39,9 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+        <div className="d-flex m-3">
+            <Icono iconClass="fas fa-shopping-cart btn btn-light"/>           
+        </div>
       </div>
     </nav>
   );
