@@ -13,8 +13,9 @@ function App() {
       <NavBar/>
       <Tittle name="Joaquin"/>
       <ItemListContainer>
+        <ItemCount/>
       </ItemListContainer>
-      <ItemCount/>
+      
     </div>
     
   );
