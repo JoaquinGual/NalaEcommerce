@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.numero{
+  font-size: 30px;
+  color: #0d181b;
+  font-weight: bold;
+}

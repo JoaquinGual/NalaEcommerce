@@ -1,17 +1,22 @@
 
 import './App.css';
-import Catalogo from './components/Catalogo/Catalogo';
-import Listado from './components/Listado/Listado';
-import NavBar from './components/NavBar/NavBar.jsx';
+import ItemCount from './components/itemCount/itemCount';
 
+
+import ItemListContainer from './components/itemListContainer/ItemListContainer';
+import NavBar from './components/NavBar/NavBar';
+import Tittle from './components/Tittle/Tittle';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Catalogo/>
-      <Listado/>
+      <Tittle name="Joaquin"/>
+      <ItemListContainer>
+      </ItemListContainer>
+      <ItemCount/>
     </div>
+    
   );
 }
 

@@ -1,7 +1,8 @@
 
 //navbar bootstrap
 
-import Icono from "../Icono/icono";
+import ItemIcon from "../Icon/itemIcon";
+import Icono from "../Icon/itemIcon";
 
 const Navbar = () => {
   return (
@@ -40,7 +41,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="d-flex m-3">
-            <Icono iconClass="fas fa-shopping-cart btn btn-light"/>           
+            <ItemIcon iconClass="fas fa-shopping-cart btn btn-light"/>           
         </div>
       </div>
     </nav>

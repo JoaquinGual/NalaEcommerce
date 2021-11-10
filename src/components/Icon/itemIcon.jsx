@@ -1,8 +1,7 @@
-
-function Icono({iconClass}) {
+function ItemIcon({iconClass}) {
     return (
         <i className={iconClass}></i>
     );
 }
 
-export default Icono;
+export default ItemIcon;
